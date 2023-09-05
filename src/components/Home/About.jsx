@@ -20,7 +20,7 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, my name is <span className="yellow">Pavel Lonescu </span>
+              Hi, my name is <span className="yellow">Avram Matei </span>
               and I'm from <span className="yellow"> Oradea, Romania.</span>
               <br />
               <br />

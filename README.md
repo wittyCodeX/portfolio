@@ -2,7 +2,7 @@
 
 [🔗Live Demo🔗](https://sajib.vercel.app/)
 
-![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png)
+<!-- ![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png) -->
 
 <div align="center">
 
