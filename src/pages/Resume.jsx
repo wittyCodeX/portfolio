@@ -3,8 +3,8 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
-import Particle from '../components/Particle'
-import pdf from "../assets/AvramMateiResume.pdf"
+import Particle from "../components/Particle";
+import pdf from "../assets/ZoranMarkovicResume.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -15,7 +15,6 @@ const Resume = () => {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-
     setWidth(window.innerWidth);
   }, []);
 
@@ -54,7 +53,7 @@ const Resume = () => {
         </Row>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

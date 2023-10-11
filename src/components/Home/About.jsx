@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-
 const About = () => {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -20,25 +19,29 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, my name is <span className="yellow">Avram Matei </span>
-              and I'm from <span className="yellow"> Oradea, Romania.</span>
+              Hi, my name is <span className="yellow">Zoran Markovic </span>
+              and I'm from <span className="yellow"> Novi Sad, Serbia.</span>
               <br />
               <br />
-              I graduated with a Bachelor's degree in Computer Science and Engineering in 2016.
+              I graduated with a Bachelor's degree in Computer Science and
+              Engineering in 2017.
               <br />
               <br />
-              As a
-              <b className="yellow"> Blockchain & Fullstack </b>developer,
-              I enjoy tackling new challenges and continuously expanding my skillset.
+              As a<b className="yellow"> Blockchain & Fullstack </b>developer, I
+              enjoy tackling new challenges and continuously expanding my
+              skillset.
               <br />
               <br />I am expertize in
               <b className="yellow"> Typescript, Vuejs, React/Next.js </b>
-              as well as have knowledge in programming languages such as C, Java, Python,
+              as well as have knowledge in programming languages such as C,
+              Java, Python,
               <b className="yellow"> GraphQL, and Solidity.</b>
               <br />
-              <br />
-              I have a passion for working
-              with <b className="yellow">Smart Contract, NFT market placing, Web3, Ethereum</b> and
+              <br />I have a passion for working with{" "}
+              <b className="yellow">
+                Smart Contract, NFT market placing, Web3, Ethereum
+              </b>{" "}
+              and
               <i>
                 <b className="yellow">
                   {" "}
@@ -50,15 +53,13 @@ const About = () => {
                 <b className="yellow"> React.js / Next.js, Typescript, Vuejs</b>
               </i>
               <br />
-              <br />
-              I am also interested in building new
+              <br />I am also interested in building new
               <i>
                 <b className="yellow"> Web Technologies and Products, </b>
                 as well as exploring areas related to
                 <b className="yellow"> Artificial Intelligence.</b>
               </i>
               <br />
-
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -71,7 +72,8 @@ const About = () => {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+              Please don't hesitate to reach out to me and{" "}
+              <span className="yellow">connect.</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -124,7 +126,6 @@ const About = () => {
       </Container>
     </Container>
   );
+};
 
-}
-
-export default About
+export default About;
